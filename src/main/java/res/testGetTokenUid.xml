@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="测试传参数" parallel="false">
+    <test name="一组">
+        <classes>
+            <class name ="others.GetTokenAndUid">查看参数</class>
+        </classes>
+    </test>
+</suite>

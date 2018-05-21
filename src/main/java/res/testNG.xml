@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="测试套" parallel="false">
+    <!-- <groups>
+         <run>
+             &lt;!&ndash;<include name="A" />&ndash;&gt;
+             <exclude name="B" />
+         </run>
+     </groups>-->
+    <test name="case">
+        <packages>
+           <package name="TestCase.*" />
+        </packages>
+        <classes>
+            <exclude name="TestCase.MyinvoiceAccount.account_controller.GetOpenId">
+            </exclude>
+        </classes>
+    </test>
+</suite>
